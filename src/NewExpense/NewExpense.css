@@ -1,0 +1,13 @@
+.new-expense{
+    padding: 1.2rem;
+    background-color: rgb(123, 66, 255);
+    margin: 2rem auto;
+    width: 100rem;
+    max-width: 95%;
+}
+@media(max-width:600px) {
+    .new-expense{
+        padding: 0.2rem;
+        margin: 1rem auto;
+    }
+}

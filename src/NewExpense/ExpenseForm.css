@@ -1,0 +1,16 @@
+.new-expense__controls{
+    display: grid;
+    grid-template-columns: 6fr;
+    background-color: blueviolet;
+}
+.new-expense__control label{
+    font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 1px solid beige;
+}
+.new-expense__action{
+    background-color: rgb(76, 0, 148);
+    color: white;
+    border: 1px solid black;
+}

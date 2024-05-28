@@ -5,6 +5,7 @@
     width: 100rem;
     max-width: 95%;
 }
+
 @media(max-width:600px) {
     .expenses{
         padding: 0.2rem;

@@ -1,0 +1,38 @@
+.new-expense__controls {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.new-expense__control {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
+
+.new-expense__control label {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    border: 1px solid beige;
+}
+
+.new-expense__action{
+    display: flex;
+    justify-content: end;
+}
+.new-expense button{
+    font: inherit;
+    font-size: x-large;
+    cursor: pointer;
+    border: 2px solid #40005d;
+    border-radius: 10px;
+    background-color: #40005d;
+    color: white;
+}
+.new-expense button:hover{
+    border: 2px solid #40005d;
+    border-radius: 10px;
+    background-color: white;
+    color: #40005d;
+}
